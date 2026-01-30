@@ -7,6 +7,15 @@
 ![Tools: Docker](https://img.shields.io/badge/Tools-Docker%20|%20Elastic%20Stack-blueviolet)
 ![Compliance: OpenSCAP](https://img.shields.io/badge/Compliance-OpenSCAP-green)
 
+## 📍 Table of Contents
+* [Executive Summary](#-executive-summary)
+* [Technical Architecture](#️-technical-architecture)
+* [Deployment & Analysis Workflow](#-deployment--analysis-workflow)
+    * [Phase 1: Infrastructure & Deployment](#phase-1-infrastructure--deployment)
+    * [Phase 2: Threat Intelligence Analysis](#phase-2-threat-intelligence-analysis)
+    * [Phase 3: Hardening & Validation](#phase-3-hardening--validation)
+* [Outcome & Compliance Insight](#-outcome--compliance-insight)
+
 ## Executive Summary
 This project addresses a critical visibility gap in Small-to-Medium Enterprise (SME) cloud environments: the lack of "opportunistic" threat detection. By deploying a **T-Pot "Hive" multi-sensor honeypot** alongside a simulated production asset in Microsoft Azure, this project operationalized real-world threat intelligence to shift security posture from reactive to proactive.
 
