@@ -31,9 +31,9 @@ graph TD
     Internet((Internet)) -->|Attack Traffic| NSG_Honey[Azure NSG: Honeypot]
     Internet -->|Web Traffic| NSG_Sec[Azure NSG: Secured VM]
     
-    subgraph "Azure Resource Group"
-        NSG_Honey -->|Allow All Inbound| VM_Honey[CapstoneHoney VM <br/> (T-Pot Hive)]
-        NSG_Sec -->|Filtered Inbound| VM_Sec[Secured Service VM <br/> (Ubuntu 22.04)]
+    subgraph Azure_Resource_Group [Azure Resource Group]
+        NSG_Honey -->|Allow All Inbound| VM_Honey["CapstoneHoney VM (T-Pot Hive)"]
+        NSG_Sec -->|Filtered Inbound| VM_Sec["Secured Service VM (Ubuntu 22.04)"]
     end
     
     VM_Honey -->|Threat Intel| Analysis[Kibana Analysis]
