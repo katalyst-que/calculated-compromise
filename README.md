@@ -39,6 +39,8 @@ graph TD
     VM_Honey -->|Threat Intel| Analysis[Kibana Analysis]
     Analysis -->|Block Rules| NSG_Sec
 
+```
+
 ## Deployment & Analysis Workflow
 
 ### Phase 1: Infrastructure Provisioning & Deployment
